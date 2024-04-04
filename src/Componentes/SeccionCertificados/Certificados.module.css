@@ -1,0 +1,137 @@
+
+
+.divHenry{
+  display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 1200px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.divContainerHijoCertificados{
+  display: flex;
+  gap: 50px;
+}
+
+.h2Certificados{
+  text-align: center;
+    font-family: "Gabarito", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(192, 192, 192);
+  
+  margin-top : 100px;
+  margin-bottom: -80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .divHenry{
+    display: flex;
+      flex-direction: row;
+      align-content: center;
+      flex-wrap: wrap;
+      height: 2600px;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 50px;
+  }
+  
+
+
+
+  .divContainerHijoCertificados {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 1200px;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  
+  /* Estilos específicos para dispositivos pequeños */
+}
+
+/* Media Query para tabletas */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  /* Estilos específicos para tabletas */
+  
+  .divHenry{
+    display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      height: 2600px;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 50px;
+  }
+  
+
+
+
+  .divContainerHijoCertificados {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 1200px;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+/* Media Query para tabletas */
+@media only screen and (min-width: 991px) and (max-width: 1300px) {
+  /* Estilos específicos para tabletas */
+  
+  .divHenry{
+    display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      height: 2100px;
+      justify-content: center;
+      
+     
+  }
+  
+
+
+
+  .divContainerHijoCertificados {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 900px;
+    justify-content: center;
+   
+  }
+  
+}
+

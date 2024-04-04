@@ -1,0 +1,145 @@
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(192, 192, 192);
+  text-align: justify;
+  height: 100vh;
+  font-family: "Gabarito", sans-serif;
+ 
+}
+
+.loading {
+  /* Estilo de carga inicial */
+  background:  linear-gradient(215deg,#008080,#1f1b1b,#828080); /* Color de fondo */
+}
+
+.h2TituloSkills {
+  font-family: "Gabarito", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.divContainerKlis {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.h2Skills {
+  font-size: 30px;
+  font-family: "Gabarito", sans-serif;
+  border-left: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid #626162;
+  padding: 5px;
+}
+
+.divHijoNombreImg {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  margin: 6px;
+  transition: 0.5ms;
+  gap: 10px;
+}
+
+.divHijoNombreImg:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #008080;
+  border-radius: 10%;
+  width: 250px;
+  margin: 6px;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.93);
+}
+
+.imgSkils {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    
+  .divContainerKlis {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+ 
+  
+  /* Estilos específicos para dispositivos pequeños */
+}
+
+/* Media Query para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilos específicos para tabletas */
+}
+
+/* Media Query para dispositivos de escritorio */
+@media only screen and (min-width: 992px) {
+  /* Estilos específicos para dispositivos de escritorio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

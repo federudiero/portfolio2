@@ -1,0 +1,257 @@
+.divContainer{
+ 
+    padding: 0px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: azure;
+   
+    text-align: justify;
+    height: 100vh;
+    
+  
+
+    
+    
+}
+.divimgPortada{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden; /* Evitar desbordamiento */
+    position: relative; /* Permitir posicionamiento absoluto */
+
+}
+
+.imgPortada{
+    height: 100%; /* Tamaño máximo */
+    width: 100%; /* Tamaño máximo */
+    border-radius: 50%;
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0; /* Alinear a la parte inferior */
+    
+}
+
+.h1 {
+    width: 210px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+    background-color: rgb(12, 12, 12);
+    animation: focus-in-contract 1.5s ease-in-out 0.1s 1 forwards; /* Simplificar la declaración de la animación */
+    will-change: transform; /* Agregar will-change para mejorar el rendimiento */
+}
+
+
+
+.h3{
+font-size: 15px;
+    height: 400px;
+    width: 370px;
+}
+
+/* .imgPortada */
+
+
+/*.h1 */
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/*.divContainer */
+
+
+
+
+
+ 
+
+
+@media only screen and (max-width: 768px) {
+
+    
+  
+    .divContainer{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: azure;
+        text-align: justify;
+        height: 100vh;
+    
+        
+        
+    }
+
+    .h1 {  
+        width: 250px;;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 50px;
+        background-color: rgb(12, 12, 12);
+        animation: seccionHeader_focus-in-contract__T3eIc 1.5s ease-in-out 0.1s 1 forwards;
+        will-change: transform; /* Agregar will-change para mejorar el rendimiento */
+    }
+
+    .imgPortada{
+        height: 250px; /* Tamaño máximo */
+        width: 250px; /* Tamaño máximo */
+        
+        position: absolute; /* Posicionamiento absoluto */
+        bottom: 0; /* Alinear a la parte inferior */
+        
+    }
+
+    @keyframes focus-in-contract {
+        0% {
+            letter-spacing: 1em;
+            filter: blur(12px);
+            opacity: 0;
+        }
+        100% {
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+  
+   
+    
+    /* Estilos específicos para dispositivos pequeños */
+  }
+  
+  /* Media Query para tabletas */
+  @media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* Estilos específicos para tabletas */
+    .divContainer{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: azure;
+        text-align: justify;
+        height: 100vh;
+    
+        
+        
+    }
+
+    .h1 {  
+        width: 250px;;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 50px;
+        background-color: rgb(12, 12, 12);
+        animation: seccionHeader_focus-in-contract__T3eIc 1.5s ease-in-out 0.1s 1 forwards;
+        will-change: transform; /* Agregar will-change para mejorar el rendimiento */
+    }
+
+    .imgPortada{
+        height: 250px; /* Tamaño máximo */
+        width: 250px; /* Tamaño máximo */
+        
+        position: absolute; /* Posicionamiento absoluto */
+        bottom: 0; /* Alinear a la parte inferior */
+        
+    }
+
+    @keyframes focus-in-contract {
+        0% {
+            letter-spacing: 1em;
+            filter: blur(12px);
+            opacity: 0;
+        }
+        100% {
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+ 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Media Query para tabletas */
+  @media only screen and (min-width: 991px) and (max-width: 1300px) {
+    /* Estilos específicos para tabletas */
+    .divContainer{
+       
+    padding: 0px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: azure;
+   
+    text-align: justify;
+    height: 100vh;
+    
+        
+        
+    }
+
+    .h1 {  
+        width: 250px;;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 70px;
+        background-color: rgb(12, 12, 12);
+        animation: seccionHeader_focus-in-contract__T3eIc 1.5s ease-in-out 0.1s 1 forwards;
+        will-change: transform; /* Agregar will-change para mejorar el rendimiento */
+    }
+
+    .imgPortada{
+        height: 250px; /* Tamaño máximo */
+        width: 250px; /* Tamaño máximo */
+        
+        position: absolute; /* Posicionamiento absoluto */
+        bottom: 0; /* Alinear a la parte inferior */
+        
+    }
+
+    @keyframes focus-in-contract {
+        0% {
+            letter-spacing: 1em;
+            filter: blur(12px);
+            opacity: 0;
+        }
+        100% {
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+    
+  }
+  
+  

@@ -1,0 +1,166 @@
+.divContainerAboutMe{
+
+   
+   
+  
+    display: flex;
+    flex-direction: column;
+    color: rgb(192, 192, 192);
+    text-align: justify;
+    font-family: "Gabarito", sans-serif;
+    height: 900px;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+   
+}
+.h3Aboutme{
+    text-align: center;
+    font-family: "Gabarito", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(192, 192, 192);
+    
+}
+
+.divAoutMeH3H4{
+    
+    display: flex;
+    text-align: center;
+    width: 700px;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h4AboutMe{
+    text-align: justify;
+    font-size: 17px;
+    
+}
+
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .imgAboutme{
+    height: 210px;
+    width: 270px;
+    border-radius: 20%;
+    border: 2px solid rgb(97, 96, 96);
+    opacity: 0.7;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media only screen and (max-width: 767px) {
+
+   
+   
+    .divContainerAboutMe{
+
+   
+   
+  
+        display: flex;
+        flex-direction: column;
+        color: rgb(192, 192, 192);
+        text-align: justify;
+        font-family: "Gabarito", sans-serif;
+        height: 900px;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 1700px;
+        
+       
+    }
+    .divAoutMeH3H4{
+    
+        display: flex;
+        text-align: center;
+        width: 700px;
+        font-size: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+.h4AboutMe{
+    text-align: justify;
+    font-size: 17px;
+    width: 300px;
+    
+    
+}
+
+    /* Estilos específicos para dispositivos pequeños */
+  }
+  
+  /* Media Query para tabletas */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos específicos para tabletas */
+
+    .divContainerAboutMe{
+
+   
+   
+  
+      display: flex;
+      flex-direction: column;
+      color: rgb(192, 192, 192);
+      text-align: justify;
+      font-family: "Gabarito", sans-serif;
+      height: 900px;
+      align-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 1500px;
+      
+     
+  }
+  .divAoutMeH3H4{
+  
+      display: flex;
+      text-align: center;
+      width: 700px;
+      font-size: 20px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+  
+  }
+  
+.h4AboutMe{
+  text-align: justify;
+  font-size: 17px;
+  width: 700px;
+  
+  
+}
+  }
+  
+ 
