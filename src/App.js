@@ -1,5 +1,5 @@
 
-import NavBar   from "./Componentes/navBar/NavBar";
+
 import Index   from "./Componentes/seccionHeader/Index";
 import SeccionSkills   from "./Componentes/seccionSkills/SeccionSkills";
 import SeccionAboutMe from "./Componentes/seccionAboutMe/SeccionAboutMe";
@@ -14,7 +14,7 @@ function App() {
   return (
     <div >
       <BrowserRouter>
-      <NavBar/>
+      
       <Index/>
       <SeccionProyectos/>
       <SeccionSkills  />

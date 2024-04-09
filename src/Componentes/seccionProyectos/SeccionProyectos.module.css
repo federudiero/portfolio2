@@ -15,7 +15,12 @@
 
   .divContainerPadre{
     margin-top: 200px;
-    height: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
    }
   
   .h2Proyectos{
@@ -25,28 +30,43 @@
     font-weight: 700;
     text-decoration: underline;
     color: rgb(192, 192, 192);
+    animation: zoomAnimation 0.5s ease-in-out infinite alternate;
+  }
+  .custom-border-teal-600 {
+    border-color: #008080;
+  }
+ 
+  @keyframes zoomAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
   }
 
 
 
-
-
-
   @media only screen and (max-width: 767px) {
-
-    .containerProyectos {
-
-    
+    .divContainerPadre{
+      margin-top: 50px;
+      height: 1400px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-evenly;
-      color: #969494;
-      text-align: justify;
-      height: 1700px;
-      font-family: "Gabarito", sans-serif;
-      gap: 15px;
-        
+      justify-content: center;
+      gap: 20px;
+     }
+
+    .containerProyectos {
+
+      margin-top: 50px;
+      height: 1100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 27px;
         }
         
     
@@ -56,12 +76,45 @@
 
 /* Media Query para tabletas */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .divContainerPadre{
+    margin-top: 50px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   }
+
+  .containerProyectos {
+
+    margin-top: 50px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+      }
+      
     /* Estilos específicos para tabletas */
 }
 
 /* Media Query para dispositivos de escritorio */
 @media only screen and (min-width: 992px) {
     /* Estilos específicos para dispositivos de escritorio */
+    .divContainerPadre{
+      margin-top: 50px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+     }
+
+   
+        
 }
 
 

@@ -8,7 +8,7 @@ function SeccionAboutMe({ isVisible }) {
     <div className={style.divContainerAboutMe }>
       <div className={style.divAoutMeH3H4}>
         <h3 className={style.h3Aboutme}>About me</h3>
-        <img className={style.imgAboutme} src={fede} alt="" />
+       
       </div>
       <div className={style.divAoutMeH3H4}>
         <h4 className={style.h4AboutMe}>Soy Federico, un apasionado por la tecnología y los negocios. Con una sólida formación como técnico en computación y una amplia experiencia en roles de liderazgo y trabajo en equipo, por lo que he desarrollado habilidades de coordinación y compañerismo.

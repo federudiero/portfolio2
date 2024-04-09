@@ -2,12 +2,17 @@
 import imagen from "../../img/fede.jpeg";
 import style from '../../Componentes/seccionHeader/seccionHeader.module.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
+
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
 function Index() {
- 
+  const iconStyle = {
+    width: '50px',
+    height: '50px',
+    cursor: 'pointer',
+  };
 
   return (<>
     <div className={style.divContainer}>
@@ -19,9 +24,14 @@ function Index() {
         <img className={style.imgPortada} src={imagen} alt="" />
       
       </div>
-      <div> <LinkedInIcon/>
-      <GitHubIcon/>
-      <InstagramIcon/>
+      <div> 
+<a href="https://www.linkedin.com/in/federico-rudiero"><LinkedInIcon style={iconStyle} /></a>
+<a href="https://github.com/federudiero"><GitHubIcon style={iconStyle} /></a>
+
+<a href="https://wa.me/message/MJCIY3UU4SYQD1"><WhatsAppIcon style={iconStyle} /></a>
+      
+      
+      
       </div>
 
       </div>

@@ -1,13 +1,12 @@
 .divContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   color: rgb(192, 192, 192);
   text-align: justify;
   height: 100vh;
   font-family: "Gabarito", sans-serif;
- 
 }
 
 .loading {
@@ -20,12 +19,25 @@
   font-size: 40px;
   font-weight: 700;
   text-decoration: underline;
+  animation: zoomAnimation 0.5s ease-in-out infinite alternate;
+}
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .divContainerKlis {
   display: flex;
   gap: 10px;
   justify-content: center;
+  height: 390px;
+  width: 700px;
+
+  align-items: center;
 }
 
 .h2Skills {
@@ -34,7 +46,10 @@
   border-left: 5px solid rgb(0, 0, 0);
   border-bottom: 5px solid #626162;
   padding: 5px;
+  
 }
+  
+
 
 .divHijoNombreImg {
   padding-left: 10px;
@@ -42,7 +57,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 250px;
+  width: 300px;
   margin: 6px;
   transition: 0.5ms;
   gap: 10px;
@@ -55,19 +70,17 @@
   justify-content: flex-start;
   background-color: #008080;
   border-radius: 10%;
-  width: 250px;
+  width: 300px;
   margin: 6px;
   transition: background-color 0.5s ease;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.93);
 }
 
 .imgSkils {
-  height: 50px;
-  width: 50px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
 }
-
-
 
 
 
@@ -87,11 +100,22 @@
 @media only screen and (max-width: 767px) {
 
     
+.divContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(192, 192, 192);
+  text-align: justify;
+  height: 1500px;
+  font-family: "Gabarito", sans-serif;
+}
   .divContainerKlis {
     display: flex;
     gap: 10px;
     justify-content: center;
     flex-direction: column;
+    height: 1000px;
   }
  
  
@@ -101,6 +125,25 @@
 
 /* Media Query para tabletas */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+.divContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(192, 192, 192);
+  text-align: justify;
+  height: 1500px;
+  font-family: "Gabarito", sans-serif;
+}
+  .divContainerKlis {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    height: 1000px;
+  }
+ 
   /* Estilos específicos para tabletas */
 }
 
