@@ -80,22 +80,26 @@
 @media only screen and (max-width: 767px) {
 
    
-   
+  .h3Aboutme{
+    text-align: center;
+    font-family: "Gabarito", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+ 
+  }
     .divContainerAboutMe{
 
    
-   
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      font-family: "Gabarito", sans-serif;
+      height: 1300px;
+     
+      align-items: flex-end;
+      border-radius: 0%;
+      justify-content: center;
   
-        display: flex;
-        flex-direction: column;
-        color: rgb(192, 192, 192);
-        text-align: justify;
-        font-family: "Gabarito", sans-serif;
-        height: 900px;
-        align-content: center;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 1700px;
         
        
     }
@@ -103,21 +107,24 @@
     
         display: flex;
         text-align: center;
-        width: 700px;
-        font-size: 20px;
+       
+       
         flex-direction: column;
-        justify-content: space-between;
+      
         align-items: center;
-    
+
+    max-width: 100%;
     }
     
 .h4AboutMe{
     text-align: justify;
-    font-size: 17px;
-    width: 300px;
+    font-size: 14px;
+    width: 200px;
+ 
     
     
 }
+
 
     /* Estilos específicos para dispositivos pequeños */
   }

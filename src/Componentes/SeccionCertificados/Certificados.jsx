@@ -13,8 +13,10 @@ function Certificados() {
       <h2 className={style.h2Certificados}>Certificados</h2>
 
       <div className={style.divHenry}>
+       
+
         <div className={style.divContainerHijoCertificados}>
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+        <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
             <figure className="px-100 pt-100">
               <img src={javascript} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -40,9 +42,6 @@ function Certificados() {
               <h2 className="card-title">Certificaion en Desarrollo web</h2>
             </div>
           </div>
-        </div>
-
-        <div className={style.divContainerHijoCertificados}>
           <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
             <figure className="px-100 pt-100">
               <img src={reactjs} alt="Shoes" className="rounded-xl" />

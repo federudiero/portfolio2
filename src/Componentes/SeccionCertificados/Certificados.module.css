@@ -2,17 +2,19 @@
 
 .divHenry{
   display: flex;
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
-    height: 1200px;
-    justify-content: center;
-    gap: 50px;
+  flex-direction: column;
+  align-content: center;
+  height: 1100px;
+  justify-content: center;
 }
 
 .divContainerHijoCertificados{
   display: flex;
-  gap: 50px;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+  
+    justify-content: center;
 }
 
 .h2Certificados{
@@ -49,6 +51,7 @@
       justify-content: center;
       gap: 50px;
       margin-bottom: 50px;
+     
   }
   
 
@@ -111,27 +114,22 @@
   
   .divHenry{
     display: flex;
-      flex-direction: column;
-      align-content: center;
-      flex-wrap: wrap;
-      height: 2100px;
-      justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: 1100px;
+    justify-content: center;
+    ;
       
      
   }
   
 
-
-
   .divContainerHijoCertificados {
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
-    height: 900px;
-    justify-content: center;
    
+    gap: 20px;
   }
+
   
 }
 
