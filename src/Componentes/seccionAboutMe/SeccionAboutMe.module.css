@@ -104,16 +104,16 @@
        
     }
     .divAoutMeH3H4{
-    
-        display: flex;
-        text-align: center;
-       
-       
-        flex-direction: column;
+      display: flex;
+      text-align: center;
+     
+      flex-direction: row;
+      justify-content: center;
+   
+      align-items: center;
       
-        align-items: center;
 
-    max-width: 100%;
+   
     }
     
 .h4AboutMe{

@@ -21,7 +21,7 @@ function Certificados() {
               <img src={javascript} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en javascript</h2>
+              <h2 className="card-title">Certificación en javascript</h2>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ function Certificados() {
               <img src={certificadoSoyHenry} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en Soy Henry</h2>
+              <h2 className="card-title">Certificación en Soy Henry</h2>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ function Certificados() {
               <img src={desarrolloweb} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en Desarrollo web</h2>
+              <h2 className="card-title">Certificación en Desarrollo web</h2>
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
@@ -47,7 +47,7 @@ function Certificados() {
               <img src={reactjs} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en React js</h2>
+              <h2 className="card-title">Certificación en React js</h2>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ function Certificados() {
               <img src={carreradedesarrolladorfullstack} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en Desarrollo FullStack</h2>
+              <h2 className="card-title">Certificación en Desarrollo FullStack</h2>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ function Certificados() {
               <img src={programacionBackend} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Certificaion en Programacion Backend</h2>
+              <h2 className="card-title">Certificación en Programacion Backend</h2>
             </div>
           </div>
         </div>
