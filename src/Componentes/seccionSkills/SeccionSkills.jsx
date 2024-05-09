@@ -9,6 +9,9 @@ import sequelize from '../../img/sequelize.png';
 import bootstrap from '../../img/Bootstrap_logo.svg.png';
 import github from '../../img/GITHUB.png';
 
+
+import fede from '../../img/fede2.jpeg'
+
 function SeccionSkills() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
@@ -32,51 +35,107 @@ function SeccionSkills() {
   }, []);
 
   return (
-    <div className={`${style.divContainer} ${!imagesLoaded && style.loading}`}>
-      <div>
-        <h2 className={style.h2TituloSkills}>Skills</h2>
+   
+<div className={style.divContainer}>
+
+
+{imagesLoaded && (
+  <div className={style.divContainer}>
+ 
+
+      <div className={style.divContainerHijo}>
+     
+
+
+      <div >
+        <img className={style.imgSkils} src={html} alt="HTML" />
+      
       </div>
-      {imagesLoaded && (
-        <div className={style.divContainerKlis}>
-          <div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={html} alt="HTML" />
-              <h2 className={style.h2Skills}>HTML</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={javascript} alt="JavaScript" />
-              <h2 className={style.h2Skills}>JavaScript</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={css} alt="CSS" />
-              <h2 className={style.h2Skills}>CSS</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={react} alt="React" />
-              <h2 className={style.h2Skills}>React</h2>
-            </div>
-          </div>
-          <div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={bootstrap} alt="Bootstrap" />
-              <h2 className={style.h2Skills}>Bootstrap</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={daisyui} alt="DaisyUI" />
-              <h2 className={style.h2Skills}>DaisyUI</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={sequelize} alt="Sequelize" />
-              <h2 className={style.h2Skills}>Sequelize</h2>
-            </div>
-            <div className={style.divHijoNombreImg}>
-              <img className={style.imgSkils} src={github} alt="GitHub" />
-              <h2 className={style.h2Skills}>GitHub</h2>
-            </div>
-          </div>
-        </div>
-      )}
+      <div >
+        <img className={style.imgSkils} src={javascript} alt="JavaScript" />
+       
+      </div>
+      <div >
+        <img className={style.imgSkils} src={css} alt="CSS" />
+       
+      </div>
+      <div >
+        <img className={style.imgSkils} src={react} alt="React" />
+        
+      </div>
+
+      </div>
+
+
+
+
+      <div className="card max-w-full sm:max-w-lg  shadow-xl p-4 " style={{borderTop: '4px solid #f7df1e'}}>
+      <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center">About Me</h2>
+  <figure className="px-4 sm:px-8 pt-4 sm:pt-8">
+    <img src={fede} alt="LimpiezaFR" className="rounded-xl w-full" />
+  </figure>
+  <div className="card-body items-center text-center px-4 sm:px-8 py-4">
+    
+    <div className="text-left text-sm sm:text-base  " style={{ color: '#f7df1e' }} >
+      <p className="mb-4">
+        Soy Federico, un apasionado por la tecnología y los negocios. Con una sólida formación como técnico en computación y una amplia experiencia en roles de liderazgo y trabajo en equipo, por lo que he desarrollado habilidades de coordinación y compañerismo.
+      </p>
+      <p className="mb-4">
+        Durante mi tiempo como técnico en computación, tuve el privilegio de desempeñarme como encargado del área, lo que me permitió liderar equipos y gestionar proyectos de manera efectiva. Esta experiencia me enseñó la importancia del liderazgo, la comunicación y el trabajo en conjunto para lograr objetivos desafiantes.
+      </p>
+      <p className="mb-4">
+        Actualmente, soy propietario de mi propia empresa de venta de materiales áridos, donde me desempeño en el área de administración y de la cual he creado su página web. Esta experiencia me ha brindado la oportunidad de desarrollar habilidades metodológicas y organizativas, así como una sólida comprensión del mercado y las estrategias de venta.
+      </p>
+      <p className="mb-4">
+        Además de mi experiencia empresarial, también soy un apasionado del desarrollo web. He completado programas de estudio en instituciones como Soy Henry y Coder House, donde adquirí habilidades técnicas en desarrollo web y programación. Estoy constantemente buscando oportunidades para crecer profesionalmente y aplicar mis conocimientos en nuevos proyectos.
+      </p>
+      <p>
+        Soy una persona comprometida, orientada a resultados y siempre dispuesta a enfrentar nuevos desafíos. Constantemente buscando oportunidades para aprender y crecer tanto a nivel personal como profesional.
+      </p>
     </div>
+  </div>
+</div>
+
+
+
+
+<div className={style.divContainerHijo}>
+
+      <div >
+        <img className={style.imgSkils} src={bootstrap} alt="Bootstrap" />
+       
+      </div>
+      <div >
+        <img className={style.imgSkils} src={daisyui} alt="DaisyUI" />
+        
+      </div>
+      <div >
+        <img className={style.imgSkils} src={sequelize} alt="Sequelize" />
+     
+      </div>
+      <div >
+        <img className={style.imgSkils} src={github} alt="GitHub" />
+        
+      </div>
+   
+
+</div>
+
+
+  
+
+
+
+  </div>
+
+
+)}
+
+
+</div>
+
+
+
   );
 }
 

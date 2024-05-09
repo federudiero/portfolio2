@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
     color: azure;
    
@@ -20,7 +20,7 @@
 .divimgPortada{
     height: 300px;
     width: 300px;
-    border-radius: 50%;
+    border-radius: 10px;
     overflow: hidden; /* Evitar desbordamiento */
     position: relative; /* Permitir posicionamiento absoluto */
 
@@ -29,7 +29,7 @@
 .imgPortada{
     height: 100%; /* Tamaño máximo */
     width: 100%; /* Tamaño máximo */
-    border-radius: 50%;
+   border: 10px;
     position: absolute; /* Posicionamiento absoluto */
     bottom: 0; /* Alinear a la parte inferior */
     
@@ -54,6 +54,11 @@ font-size: 15px;
     width: 370px;
 }
 
+
+.divIcon{
+    display: flex;
+    justify-content: center;
+}
 /* .imgPortada */
 
 
@@ -114,15 +119,23 @@ font-size: 15px;
         will-change: transform; /* Agregar will-change para mejorar el rendimiento */
     }
 
+    .divimgPortada{
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
+        overflow: hidden; /* Evitar desbordamiento */
+        position: relative; /* Permitir posicionamiento absoluto */
+    
+    }
+    
     .imgPortada{
-        height: 250px; /* Tamaño máximo */
-        width: 250px; /* Tamaño máximo */
-        
+        height: 100%; /* Tamaño máximo */
+        width: 100%; /* Tamaño máximo */
+       border: 10px;
         position: absolute; /* Posicionamiento absoluto */
         bottom: 0; /* Alinear a la parte inferior */
         
     }
-
     @keyframes focus-in-contract {
         0% {
             letter-spacing: 1em;

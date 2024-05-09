@@ -16,7 +16,7 @@ function Certificados() {
        
 
         <div className={style.divContainerHijoCertificados}>
-        <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+        <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={javascript} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -25,7 +25,7 @@ function Certificados() {
             </div>
           </div>
 
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+          <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={certificadoSoyHenry} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -34,7 +34,7 @@ function Certificados() {
             </div>
           </div>
 
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+          <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={desarrolloweb} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -42,7 +42,7 @@ function Certificados() {
               <h2 className="card-title">Certificación en Desarrollo web</h2>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+          <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={reactjs} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -51,7 +51,7 @@ function Certificados() {
             </div>
           </div>
 
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+          <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={carreradedesarrolladorfullstack} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -60,7 +60,7 @@ function Certificados() {
             </div>
           </div>
 
-          <div className="card w-96 bg-base-100 shadow-xl border-t-4 border-teal-600">
+          <div className="card w-96  shadow-xl "style={{borderTop: '4px solid #f7df1e'}}>
             <figure className="px-100 pt-100">
               <img src={programacionBackend} alt="Shoes" className="rounded-xl" />
             </figure>

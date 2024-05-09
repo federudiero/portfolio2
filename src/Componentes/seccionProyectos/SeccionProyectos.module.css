@@ -28,13 +28,12 @@
     font-family: "Gabarito", sans-serif;
     font-size: 40px;
     font-weight: 700;
-    text-decoration: underline;
-    color: rgb(192, 192, 192);
+   
+    color: #b3b3b2;
     animation: zoomAnimation 0.5s ease-in-out infinite alternate;
+  
   }
-  .custom-border-teal-600 {
-    border-color: #008080;
-  }
+ 
  
   @keyframes zoomAnimation {
     0% {
@@ -45,7 +44,22 @@
     }
   }
 
-
+  .buttonColor{
+    background-color: #f7df1e ;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    color : black;
+    transition: 0.8s;
+  }
+  .buttonColor:hover{
+    background-color: #0b0b0b ;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    color : #f7df1e;
+    transition: 1.8;
+  }
 
   @media only screen and (max-width: 767px) {
     .divContainerPadre{

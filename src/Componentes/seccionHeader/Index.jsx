@@ -12,6 +12,7 @@ function Index() {
     width: '50px',
     height: '50px',
     cursor: 'pointer',
+    color: '#f7df1e' 
   };
 
   return (<>
@@ -24,7 +25,7 @@ function Index() {
         <img className={style.imgPortada} src={imagen} alt="" />
       
       </div>
-      <div> 
+      <div className={style.divIcon}> 
 <a href="https://www.linkedin.com/in/federico-rudiero"><LinkedInIcon style={iconStyle} /></a>
 <a href="https://github.com/federudiero"><GitHubIcon style={iconStyle} /></a>
 

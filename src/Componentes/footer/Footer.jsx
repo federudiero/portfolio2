@@ -10,10 +10,11 @@ function Footer() {
       width: '50px',
       height: '50px',
       cursor: 'pointer',
+      color: '#f7df1e' 
     };
   
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded border-t-4 border-teal-600">
+    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded " style={{borderTop: '4px solid #f7df1e'}}>
      
       <nav>
         <div className="grid grid-flow-col gap-4">
