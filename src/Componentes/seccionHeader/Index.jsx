@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import ContactsIcon from '@mui/icons-material/Contacts';
 
 
 function Index() {
@@ -30,6 +31,7 @@ function Index() {
 <a href="https://github.com/federudiero"><GitHubIcon style={iconStyle} /></a>
 
 <a href="https://wa.me/message/MJCIY3UU4SYQD1"><WhatsAppIcon style={iconStyle} /></a>
+
       
       
       
